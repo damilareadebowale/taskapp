@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+      integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task App</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Task App</h1>
+      <p>Add Task List</p>
+      <form id="task-form">
+        <div class="">
+          <label for="task">Title</label>
+          <input type="text" id="title" class="" />
+        </div>
+        <div class="">
+          <label for="task">Date</label>
+          <input type="date" id="taskDate" class="" />
+        </div>
+        <div class="">
+          <label for="task">Time</label>
+          <input type="time" id="taskTime" class="" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" class="" />
+        </div>
+      </form>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Date</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="task-list"></tbody>
+      </table>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
