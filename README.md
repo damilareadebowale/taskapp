@@ -1,3 +1,2 @@
 # taskapp
-Task App
-App to manage task and keep track of activities
+TaskApp manages task and keep track of all activities
